@@ -12,5 +12,3 @@ def is_leap(yil):
 
 year = int(input())
 print(is_leap(year))
-
-
