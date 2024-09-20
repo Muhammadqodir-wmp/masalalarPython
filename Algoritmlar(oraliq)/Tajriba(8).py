@@ -4,7 +4,7 @@
                             '''
 
 
-sonlar = [77, 24, 35, 74, 65, 13, 67, 8, 11, 40]
+sonlar = [77, 24, 35, 74, 65, 13, 67, 8, 11, 40,888,7]
 
 class Tugun:
     def __init__(self, kalit):
@@ -32,5 +32,5 @@ ildiz = None
 for son in sonlar:
     ildiz = kiritmoq(ildiz, son)
 
-print("\nHosil bo'lgan daraxt (inorder traversalda):")
+print("\nHosil bo'lgan daraxt :")
 otkazish(ildiz)
